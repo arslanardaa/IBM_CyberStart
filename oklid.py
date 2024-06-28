@@ -5,8 +5,8 @@ distances = []
 
 def euclideanDistance(nokta):
     for i in nokta:
-        print(math.sqrt((i[0][0]-i[1][0])**2+(i[0][1]-i[1][1])**2))
-       
+        distances.append(math.sqrt((i[0][0]-i[1][0])**2+(i[0][1]-i[1][1])**2))
+
        
 euclideanDistance(points)     
             
